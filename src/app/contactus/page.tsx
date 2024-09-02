@@ -116,36 +116,19 @@ const page = () => {
                   <p className="w-full text-lg text-gray-600">
                     Find us at these locations.
                   </p>
-                </div>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3527.8792084317342!2d-82.6408456246035!3d27.844250319440093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2e6a2b7855c1f%3A0x4e3e0f613f7708f7!2s7901%204th%20St%20N%2C%20St.%20Petersburg%2C%20FL%2033702%2C%20USA!5e0!3m2!1sen!2s!4v1725272478369!5m2!1sen!2s" width="600" height="450"   loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>                
+                  </div>
                 <div className="space-y-4 divide-y-2">
                   <div className="flex flex-col space-y-2 pt-4 first:pt-0 lg:w-full">
                     <p className="w-full text-xl font-semibold  text-gray-900">
-                      Bengaluru office
+                      Florida office
                     </p>
                     <p className="w-full text-base  text-gray-600">Mon-Sat 9am to 5pm.</p>
                     <p className="text-sm font-semibold text-gray-600">
-                      100, Electronic City Phase-1, Bengaluru, Karnataka 560100 IN
-                    </p>
+                    7901 4th St. N # 16578 St. Petersburg FL 33702                    </p>
                   </div>
-                  <div className="flex flex-col space-y-2 pt-4 first:pt-0 lg:w-full">
-                    <p className="w-full text-xl font-semibold  text-gray-900">
-                      Head office
-                    </p>
-                    <p className="w-full text-base  text-gray-600">Mon-Sat 9am to 5pm.</p>
-                    <p className="text-sm font-semibold text-gray-600">
-                      12th Main Rd, Indiranagar, Bengaluru, Karnataka 560008 IN
-                    </p>
-                  </div>
-                  <div className="flex flex-col space-y-2 pt-4 first:pt-0 lg:w-full">
-                    <p className="w-full text-xl font-semibold  text-gray-900">
-                      Karnataka office
-                    </p>
-                    <p className="w-full text-base  text-gray-600">Mon-Sat 9am to 5pm.</p>
-                    <p className="text-sm font-semibold text-gray-600">
-                      42, Residency Rd, Shanthala Nagar, Ashok Nagar, Bengaluru,
-                      Karnataka 560025 IN
-                    </p>
-                  </div>
+                
+                 
                 </div>
               </div>
             </div>

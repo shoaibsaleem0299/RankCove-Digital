@@ -45,7 +45,7 @@ const ServicesSection: React.FC<ServicesSectionProps> = ({ panelsData }) => {
               {panel.title}
             </h3>
             <p
-              className={`absolute top-1/2 left-5 transform -translate-y-1/2 transition-opacity duration-300 
+              className={`absolute top-1/2 left-5 text-center transform -translate-y-1/2 transition-opacity duration-300 
                 ${activeId === panel.id ? 'opacity-100' : 'opacity-0'}
               `}
             >

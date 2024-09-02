@@ -74,10 +74,10 @@ export default function Header() {
           </Link>
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end space-x-2">
-          <Link href="#!" passHref>
+          <Link href="https://www.facebook.com/people/Rank-Cove/pfbid02zZrwSm47HarHsBmgkWVX2Cd2xYLermBoRLddcDXHNwmd8QzeR7LqxUFFARHFdeM5l/?mibextid=qi2Omg&rdid=m9c8icpcyam6y0ae&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2FRJVRwVU9Nban1xQc%2F%3Fmibextid%3Dqi2Omg" passHref>
             <i className="w-10 fa-brands fa-facebook-f fa-xl text-white"></i>
           </Link>
-          <Link href="#!" passHref>
+          <Link href="https://www.instagram.com/rankcove/?igsh=MXIxemw4MDJnZHlocw%3D%3D" passHref>
             <i className="w-10 fa-brands fa-instagram fa-xl text-white"></i>
           </Link>
           <Link href="#!" passHref>
@@ -116,27 +116,27 @@ export default function Header() {
                   <Link href="/" passHref>
                     <p className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Home</p>
                   </Link>
-                  <Link href="/about_us" passHref>
+                  <Link href="/aboutus" passHref>
                     <p className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">About</p>
                   </Link>
-                  <Link href="/our_work" passHref>
+                  <Link href="/ourwork" passHref>
                     <p className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Our Work</p>
                   </Link>
-                  <Link href="/blog" passHref>
+                  <Link href="/blogs" passHref>
                     <p className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Blog</p>
                   </Link>
                   <Link href="/clients" passHref>
                     <p className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Clients</p>
                   </Link>
-                  <Link href="/contact_us" passHref>
+                  <Link href="/contactus" passHref>
                     <p className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Contact Us</p>
                   </Link>
                 </div>
                 <div className="py-6">
-                  <Link href="#!" passHref>
+                  <Link href="https://www.facebook.com/people/Rank-Cove/pfbid02zZrwSm47HarHsBmgkWVX2Cd2xYLermBoRLddcDXHNwmd8QzeR7LqxUFFARHFdeM5l/?mibextid=qi2Omg&rdid=m9c8icpcyam6y0ae&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2FRJVRwVU9Nban1xQc%2F%3Fmibextid%3Dqi2Omg" passHref>
                     <i className="fa-brands fa-facebook fa-xl text-gray-900 mr-4"></i>
                   </Link>
-                  <Link href="#!" passHref>
+                  <Link href="https://www.instagram.com/rankcove/?igsh=MXIxemw4MDJnZHlocw%3D%3D" passHref>
                     <i className="fa-brands fa-instagram fa-xl text-gray-900 mr-4"></i>
                   </Link>
                   <Link href="#!" passHref>

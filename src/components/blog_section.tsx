@@ -65,7 +65,7 @@ const BlogSection: React.FC<BlogSectionProps> = ({ blogs }) => {
                   />
                   <span className="font-medium dark:text-white">{blog.author}</span>
                 </div>
-                <a href="#" className="inline-flex items-center font-medium text-[#761FE3] hover:underline">
+                <a href="https://www.geeksforgeeks.org/web-development/" className="inline-flex items-center font-medium text-[#761FE3] hover:underline">
                   Read more
                   <svg
                     className="ml-2 w-4 h-4"
