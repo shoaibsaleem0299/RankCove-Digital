@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const ChooseUs = () => {
   return (
-    <section className="h-screen flex items-center bg-black">
+    <section className="min-h-screen flex items-center bg-black">
       <div className="mt-4 mb-6 gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
         <div className="font-light text-white sm:text-lg dark:text-white">
           <h1 className="mb-6 text-4xl font-extrabold tracking-tight leading-none md:text-xl lg:text-4xl text-[#761FE3]">

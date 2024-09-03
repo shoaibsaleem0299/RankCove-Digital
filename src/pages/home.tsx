@@ -7,7 +7,24 @@ import ChooseUs from '@/components/choose_us_section';
 import ReviewCarousel from '@/components/review_section';
 import BlogSection from '@/components/blog_section';
 import CallToAction from '@/components/action_section';
-import Footer from '@/components/footer';
+
+const blogs = [
+  {
+    title: "Mastering Keyword Research: The Ultimate Guide for Businesses ",
+    description: "Keyword research is the foundation of any successful digital marketing strategy. It’s the process of identifying the words and phrases that your target audience is",
+    date: "14 days ago",
+    category: "Tutorial",
+    author: "Jese Leos",
+    authorImage: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png",
+  },
+  {
+    title: "How to Boost Your Website Traffic with These Simple SEO Tips ",
+    description: "Nowadays, having a website is essential for businesses and individuals alike. However, simply having a website isn’t enough – you need to ensure that it",
+    date: "14 days ago",
+    category: "Article",
+    author: "Bonnie Green",
+    authorImage: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png",
+  },]
 
 
 const panelsData1 = [
@@ -126,7 +143,7 @@ function Home() {
             <ServicesSection panelsData={panelsData2} />
             <ChooseUs />
             <ReviewCarousel />
-            <BlogSection />
+            <BlogSection blogs={blogs} />
             <CallToAction />
         </div>
     );

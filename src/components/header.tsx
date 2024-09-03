@@ -74,14 +74,14 @@ export default function Header() {
           </Link>
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end space-x-2">
-          <Link href="https://www.facebook.com/people/Rank-Cove/pfbid02zZrwSm47HarHsBmgkWVX2Cd2xYLermBoRLddcDXHNwmd8QzeR7LqxUFFARHFdeM5l/?mibextid=qi2Omg&rdid=m9c8icpcyam6y0ae&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2FRJVRwVU9Nban1xQc%2F%3Fmibextid%3Dqi2Omg" passHref>
+          <Link href="https://www.facebook.com/share/bLB2KuRq3fZvd6im/?mibextid=LQQJ4d" passHref>
             <i className="w-10 fa-brands fa-facebook-f fa-xl text-white"></i>
           </Link>
-          <Link href="https://www.instagram.com/rankcove/?igsh=MXIxemw4MDJnZHlocw%3D%3D" passHref>
+          <Link href="https://www.instagram.com/rankcove_digital?igsh=MTIxMnJqYjhubmpkOQ==" passHref>
             <i className="w-10 fa-brands fa-instagram fa-xl text-white"></i>
           </Link>
-          <Link href="#!" passHref>
-            <i className="w-10 fa-brands fa-x-twitter fa-xl text-white"></i>
+          <Link href="https://api.whatsapp.com/message/4I2ABRYIYFTWK1?autoload=1&app_absent=0" passHref>
+            <i className="w-10 fa-brands fa-whatsapp fa-xl text-white"></i>
           </Link>
         </div>
       </nav>

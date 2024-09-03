@@ -6,46 +6,71 @@ import React from 'react'
 
 const blogs = [
   {
-    title: "How to quickly deploy a static website",
-    description: "Static websites are now used to bootstrap lots of websites and are becoming the basis for a variety of tools that even influence both web designers and developers.",
+    title: "Mastering Keyword Research: The Ultimate Guide for Businesses ",
+    description: "Keyword research is the foundation of any successful digital marketing strategy. It’s the process of identifying the words and phrases that your target audience is",
     date: "14 days ago",
     category: "Tutorial",
     author: "Jese Leos",
     authorImage: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png",
   },
   {
-    title: "Our first project with React",
-    description: "Static websites are now used to bootstrap lots of websites and are becoming the basis for a variety of tools that even influence both web designers and developers.",
+    title: "How to Boost Your Website Traffic with These Simple SEO Tips ",
+    description: "Nowadays, having a website is essential for businesses and individuals alike. However, simply having a website isn’t enough – you need to ensure that it",
     date: "14 days ago",
     category: "Article",
     author: "Bonnie Green",
     authorImage: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png",
   },
   {
-    title: "Our first project with React",
-    description: "Static websites are now used to bootstrap lots of websites and are becoming the basis for a variety of tools that even influence both web designers and developers.",
+    title: "Effective Strategies for Building a Strong Online Presence  ",
+    description: "Nowadays, having a website is essential for businesses and individuals alike. However, simply having a website isn’t enough – you need to ensure that it",
+    date: "14 days ago",
+    category: "Tutorial",
+    author: "Jese Leos",
+    authorImage: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png",
+  },
+  {
+    title: "Mastering Keyword Research: The Ultimate Guide for Businesses ",
+    description: "Keyword research is the foundation of any successful digital marketing strategy. It’s the process of identifying the words and phrases that your target audience is",
+    date: "14 days ago",
+    category: "Tutorial",
+    author: "Jese Leos",
+    authorImage: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png",
+  },
+  {
+    title: "How to Boost Your Website Traffic with These Simple SEO Tips ",
+    description: "Nowadays, having a website is essential for businesses and individuals alike. However, simply having a website isn’t enough – you need to ensure that it",
     date: "14 days ago",
     category: "Article",
     author: "Bonnie Green",
     authorImage: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png",
   },
   {
-    title: "Our first project with React",
-    description: "Static websites are now used to bootstrap lots of websites and are becoming the basis for a variety of tools that even influence both web designers and developers.",
+    title: "Effective Strategies for Building a Strong Online Presence  ",
+    description: "Nowadays, having a website is essential for businesses and individuals alike. However, simply having a website isn’t enough – you need to ensure that it",
     date: "14 days ago",
-    category: "Article",
-    author: "Bonnie Green",
-    authorImage: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png",
+    category: "Tutorial",
+    author: "Jese Leos",
+    authorImage: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png",
   },
   {
-    title: "Our first project with React",
-    description: "Static websites are now used to bootstrap lots of websites and are becoming the basis for a variety of tools that even influence both web designers and developers.",
+    title: "Mastering Keyword Research: The Ultimate Guide for Businesses ",
+    description: "Keyword research is the foundation of any successful digital marketing strategy. It’s the process of identifying the words and phrases that your target audience is",
+    date: "14 days ago",
+    category: "Tutorial",
+    author: "Jese Leos",
+    authorImage: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png",
+  },
+  {
+    title: "How to Boost Your Website Traffic with These Simple SEO Tips ",
+    description: "Nowadays, having a website is essential for businesses and individuals alike. However, simply having a website isn’t enough – you need to ensure that it",
     date: "14 days ago",
     category: "Article",
     author: "Bonnie Green",
     authorImage: "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png",
   },
-  // Add more blog data as needed
+  
+  
 ];
 
 const page = () => {

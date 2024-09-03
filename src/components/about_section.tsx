@@ -32,15 +32,18 @@ const AboutSection = () => {
 
     return (
         <section className="bg-black my-6">
-            <div data-aos="fade-right" className="mt-4 mb-6 gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6 h-screen">
+            <div 
+                data-aos="fade-right" 
+                className="mt-4 mb-6 gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6 lg:h-screen"
+            >
                 <div className="font-light text-white sm:text-lg dark:text-white">
-                    <h1 className="mb-6 text-4xl font-extrabold tracking-tight leading-none md:text-2xl lg:text-4xl text-[#761FE3] ">
+                    <h1 className="mb-6 text-4xl font-extrabold tracking-tight leading-none md:text-2xl lg:text-4xl text-[#761FE3]">
                         About Us
                     </h1>
                     <h2 className="mb-4 text-5xl tracking-tight font-extrabold text-white dark:text-white">
                         Activating Digital Success For Business
                     </h2>
-                    <p className="text-lg font-normal text-white lg:text-xl ">
+                    <p className="text-lg font-normal text-white lg:text-xl">
                         At RankCove, we understand the ever-evolving digital landscape presents both challenges and opportunities.
                         Our goal is to become your strategic partner by assisting you in navigating these challenges and realizing
                         the complete potential of digital marketing. By utilizing data-driven insights, creative solutions, and
@@ -67,7 +70,7 @@ const AboutSection = () => {
 
             {/* Fun Fact Section */}
             <div className="fun-fact-container bg-gray-900 p-5 mb-12 flex flex-wrap justify-around text-white">
-                <div className="fun-fact-item flex-1 min-w-[22%] text-center mx-2 my-4">
+                <div className="fun-fact-item flex-1 text-center mx-2 my-4" style={{ minWidth: '200px' }}>
                     <div className="funfact-wrap p-5">
                         <div className="funfact flex flex-col items-center">
                             <span className="funfact-number text-[#ffd] text-6xl font-bold" data-number="10">10<sup>Th</sup></span>
@@ -75,7 +78,7 @@ const AboutSection = () => {
                         </div>
                     </div>
                 </div>
-                <div className="fun-fact-item flex-1 min-w-[22%] text-center mx-2 my-4">
+                <div className="fun-fact-item flex-1 text-center mx-2 my-4" style={{ minWidth: '200px' }}>
                     <div className="funfact-wrap p-5">
                         <div className="funfact flex flex-col items-center">
                             <span className="funfact-number text-[#ffd] text-6xl font-bold" data-number="1250">1,250</span>
@@ -83,7 +86,7 @@ const AboutSection = () => {
                         </div>
                     </div>
                 </div>
-                <div className="fun-fact-item flex-1 min-w-[22%] text-center mx-2 my-4">
+                <div className="fun-fact-item flex-1 text-center mx-2 my-4" style={{ minWidth: '200px' }}>
                     <div className="funfact-wrap p-5">
                         <div className="funfact flex flex-col items-center">
                             <span className="funfact-number text-[#ffd] text-6xl font-bold" data-number="1500">1.5 K</span>
@@ -91,7 +94,7 @@ const AboutSection = () => {
                         </div>
                     </div>
                 </div>
-                <div className="fun-fact-item flex-1 min-w-[22%] text-center mx-2 my-4">
+                <div className="fun-fact-item flex-1 text-center mx-2 my-4" style={{ minWidth: '200px' }}>
                     <div className="funfact-wrap p-5">
                         <div className="funfact flex flex-col items-center">
                             <span className="funfact-number text-[#ffd] text-6xl font-bold" data-number="10">10</span>
