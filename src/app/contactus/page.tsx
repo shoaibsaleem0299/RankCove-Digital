@@ -119,7 +119,7 @@ const page = () => {
                 </p>
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3527.8792084317342!2d-82.6408456246035!3d27.844250319440093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2e6a2b7855c1f%3A0x4e3e0f613f7708f7!2s7901%204th%20St%20N%2C%20St.%20Petersburg%2C%20FL%2033702%2C%20USA!5e0!3m2!1sen!2s!4v1725272478369!5m2!1sen!2s"
-                  width="600"
+                  width="300"
                   height="450"
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
