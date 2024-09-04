@@ -50,7 +50,7 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <img style={{ width: '150px' }} src="./assets/images/logo.png" alt="logo" />
+            <img style={{ width: '150px' }} src="/assets/images/logo.png" alt="logo" />
           </div>
         </div>
         <div className="px-4 py-6 bg-gray-800 dark:bg-gray-700 md:flex md:items-center md:justify-between">

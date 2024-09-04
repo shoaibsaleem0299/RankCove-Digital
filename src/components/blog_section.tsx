@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 interface Blog {
@@ -7,6 +8,7 @@ interface Blog {
   category: string;
   author: string;
   authorImage: string;
+  blog: string; 
 }
 
 interface BlogSectionProps {
@@ -65,7 +67,21 @@ const BlogSection: React.FC<BlogSectionProps> = ({ blogs }) => {
                   />
                   <span className="font-medium dark:text-white">{blog.author}</span>
                 </div>
-                <a href="https://www.geeksforgeeks.org/web-development/" className="inline-flex items-center font-medium text-[#761FE3] hover:underline">
+                <Link
+                  href={{
+                    pathname:'/blogs/blog',
+                    query: {
+                      title: blog.title,
+                      description: blog.description,
+                      date: blog.date,
+                      category: blog.category,
+                      author: blog.author,
+                      authorImage: blog.authorImage,
+                      blog: blog.blog,
+                    }
+                  }}
+                  
+                  className="inline-flex items-center font-medium text-[#761FE3] hover:underline">
                   Read more
                   <svg
                     className="ml-2 w-4 h-4"
@@ -79,7 +95,7 @@ const BlogSection: React.FC<BlogSectionProps> = ({ blogs }) => {
                       clipRule="evenodd"
                     ></path>
                   </svg>
-                </a>
+                </Link>
               </div>
             </article>
           ))}
