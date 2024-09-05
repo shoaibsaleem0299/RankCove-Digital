@@ -1,5 +1,6 @@
 'use client';
-import React, { useState } from 'react';
+
+import React, { useState, useEffect } from 'react';
 
 const reviews = [
   {
@@ -33,17 +34,17 @@ const stars = Array(5).fill(0).map((_, i) => i + 1);
 const ReviewCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const handleNext = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === reviews.length - 1 ? 0 : prevIndex + 1
-    );
-  };
+  // Automatically switch reviews every 3 seconds
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prevIndex) =>
+        prevIndex === reviews.length - 1 ? 0 : prevIndex + 1
+      );
+    }, 3000);
 
-  const handlePrev = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? reviews.length - 1 : prevIndex - 1
-    );
-  };
+    // Cleanup the interval when component unmounts
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <div id="review-carousel" className="relative w-full">
@@ -58,8 +59,7 @@ const ReviewCarousel = () => {
           >
             <div className="flex flex-col items-center justify-center p-6 bg-gray-900 text-white rounded-lg shadow-lg">
               <p className="text-lg font-medium text-center">{review.text}</p>
-              <div className="mt-4 text-gray-400
-              text-center">
+              <div className="mt-4 text-gray-400 text-center">
                 <p className="font-bold">{review.name}</p>
                 <p className="text-sm">{review.position}</p>
               </div>
@@ -85,20 +85,6 @@ const ReviewCarousel = () => {
           </div>
         ))}
       </div>
-
-      {/* Navigation controls */}
-      <button
-        className="absolute top-1/2 left-4 transform -translate-y-1/2 text-white"
-        onClick={handlePrev}
-      >
-        Prev
-      </button>
-      <button
-        className="absolute top-1/2 right-4 transform -translate-y-1/2 text-white"
-        onClick={handleNext}
-      >
-        Next
-      </button>
     </div>
   );
 };
