@@ -7,7 +7,7 @@ const reviews = [
     text: "“This company transformed our online presence. Highly recommended!”",
     name: "John Doe",
     position: "CEO, ExampleCorp",
-    rating: 4
+    rating: 5
   },
   {
     text: "“Excellent service and support. The team went above and beyond!”",
@@ -19,7 +19,7 @@ const reviews = [
     text: "“A game-changer for our business. Professional and reliable!”",
     name: "Alice Johnson",
     position: "Product Manager, TechSolutions",
-    rating: 4
+    rating: 5
   },
   {
     text: "“Incredible results and fantastic customer service. We couldn't be happier!”",
@@ -40,7 +40,7 @@ const ReviewCarousel = () => {
       setCurrentIndex((prevIndex) =>
         prevIndex === reviews.length - 1 ? 0 : prevIndex + 1
       );
-    }, 3000);
+    }, 1000);
 
     // Cleanup the interval when component unmounts
     return () => clearInterval(interval);

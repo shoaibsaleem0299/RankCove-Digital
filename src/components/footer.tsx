@@ -7,44 +7,44 @@ const Footer = () => {
       <div className="mx-auto w-full max-w-screen-xl">
         <div className="grid grid-cols-2 gap-8 px-6 py-6 lg:py-8 md:grid-cols-3">
           <div>
-            <h2 className="mb-6 text-sm font-bold text-white uppercase ">Company</h2>
+            <h2 className="mb-6 text-lg font-bold text-white uppercase ">RankCove</h2>
             <ul className="text-white  font-medium">
               <li className="mb-4">
                 <Link href="/aboutus" className="hover:underline">
-                  About
+                <i className='fa-solid fa-angle-right mx-2 text-white'></i>About
                 </Link>
               </li>
             
              
               <li className="mb-4">
                 <Link href="/blogs" className="hover:underline">
-                  Blog
+                <i className='fa-solid fa-angle-right mx-2 text-white'></i>Blog
                 </Link>
               </li>
             </ul>
           </div>
           <div>
-            <h2 className="mb-6 text-sm font-bold text-white uppercase ">Help Center</h2>
+            <h2 className="mb-6 text-lg font-bold text-white uppercase ">Help Center</h2>
             <ul className="text-white  font-medium">
               
               <li className="mb-4">
                 <Link href="https://api.whatsapp.com/message/4I2ABRYIYFTWK1?autoload=1&app_absent=0" className="hover:underline">
-                  WhatsApp
+                <i className='fa-solid fa-angle-right mx-2 text-white'></i>WhatsApp
                 </Link>
               </li>
               <li className="mb-4">
                 <Link href="https://www.facebook.com/share/bLB2KuRq3fZvd6im/?mibextid=LQQJ4d" className="hover:underline">
-                  Facebook
+                <i className='fa-solid fa-angle-right mx-2 text-white'></i>Facebook
                 </Link>
               </li>
               <li className="mb-4">
                 <Link href="https://www.instagram.com/rankcove_digital?igsh=MTIxMnJqYjhubmpkOQ==" className="hover:underline">
-                  Instagram
+                <i className='fa-solid fa-angle-right mx-2 text-white'></i>Instagram
                 </Link>
               </li>
               <li className="mb-4">
                 <Link href="/contactus" className="hover:underline">
-                  Contact Us
+                <i className='fa-solid fa-angle-right mx-2 text-white'></i> Contact Us
                 </Link>
               </li>
             </ul>

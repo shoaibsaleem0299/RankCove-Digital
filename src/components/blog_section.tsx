@@ -55,7 +55,7 @@ const BlogSection: React.FC<BlogSectionProps> = ({ blogs }) => {
                 <span className="text-sm text-white">{blog.date}</span>
               </div>
               <h2 className="mb-2 text-2xl font-bold tracking-tight text-white ">
-                <a href="#">{blog.title}</a>
+                <Link href="#">{blog.title}</Link>
               </h2>
               <p className="mb-5 font-light text-gray-300 ">{blog.description}</p>
               <div className="flex justify-between items-center">

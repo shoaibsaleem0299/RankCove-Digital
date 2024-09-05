@@ -1,5 +1,6 @@
 import React from 'react';
 import imageSrc from '../../public/assets/images/Landing-BG.jpg'
+import Link from 'next/link';
 
 interface HeroSectionProps {
     title: string;
@@ -17,7 +18,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ title }) => {
                 <h1 className="mb-4 text-5xl font-extrabold tracking-tight">{title}</h1>
                 <p className="text-lg font-normal lg:text-xl  ">
                     <span className="font-bold text-[#761FE3]">
-                        <a href="/">Home</a>
+                        <Link href="/">Home</Link>
                     </span>{' '}
                     / {title}
                 </p>
