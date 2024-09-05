@@ -53,9 +53,9 @@ const ReviewCarousel = () => {
         {reviews.map((review, index) => (
           <div
             key={index}
-            className={`flex items-center justify-center h-full ${
-              index === currentIndex ? 'block' : 'hidden'
-            } duration-700 ease-in-out`}
+            className={`absolute inset-0 flex items-center justify-center transition-opacity transform duration-700 ease-in-out ${
+              index === currentIndex ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-full'
+            }`}
           >
             <div className="flex flex-col items-center justify-center p-6 bg-gray-900 text-white rounded-lg shadow-lg">
               <p className="text-lg font-medium text-center">{review.text}</p>

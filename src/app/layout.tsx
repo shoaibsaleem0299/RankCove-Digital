@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import Script from "next/script"; // Import Script component from Next.js
+import { AOSInit } from './aos'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,17 +20,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <AOSInit />
       <head>
         <Script
           src="https://kit.fontawesome.com/7379bf4ae1.js"
           crossOrigin="anonymous"
           strategy="afterInteractive" // Load this script after the page is interactive
         />
-        <Script id="aos-init" strategy="afterInteractive">
-          {`
-            AOS.init();
-          `}
-        </Script>
+
       </head>
       <body className={inter.className}>
         <Header />
