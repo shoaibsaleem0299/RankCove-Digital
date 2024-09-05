@@ -1,6 +1,31 @@
-import Link from 'next/link';
+'use client';
+import { SetStateAction, useEffect, useState } from 'react';
 
 const ChooseUs = () => {
+  const [websiteProgress, setWebsiteProgress] = useState(0);
+  const [appProgress, setAppProgress] = useState(0);
+  const [seoProgress, setSeoProgress] = useState(0);
+  const [graphicProgress, setGraphicProgress] = useState(0);
+
+  // Simulate the progress animation using setTimeout
+  useEffect(() => {
+    const incrementProgress = (setter: { (value: SetStateAction<number>): void; (value: SetStateAction<number>): void; (value: SetStateAction<number>): void; (value: SetStateAction<number>): void; (arg0: number): void; }, targetValue: number) => {
+      let currentValue = 0;
+      const interval = setInterval(() => {
+        currentValue += 1;
+        setter(currentValue);
+        if (currentValue >= targetValue) {
+          clearInterval(interval);
+        }
+      }, 20); // Adjust speed of number increment
+    };
+
+    incrementProgress(setWebsiteProgress, 95);
+    incrementProgress(setAppProgress, 90);
+    incrementProgress(setSeoProgress, 95);
+    incrementProgress(setGraphicProgress, 98);
+  }, []);
+
   return (
     <section className="min-h-screen flex items-center bg-black">
       <div className="mt-4 mb-6 gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
@@ -11,12 +36,12 @@ const ChooseUs = () => {
           <h2 className="mb-6 text-5xl tracking-tight font-extrabold text-white dark:text-white">
             Achieving Success Through Proven Digital Expertise
           </h2>
-          <p className="text-lg font-normal text-white lg:text-xl dark:text-gray-400">
+          <p className="text-lg font-normal text-white lg:text-xl ">
             At Rankcove Digital Solutions, we are a leading Meta Ads agency committed to helping your business succeed. Here’s why you should choose us:
           </p>
-          <ul className="text-lg font-normal text-white lg:text-xl dark:text-gray-400 ps-5 mt-2 space-y-1 list-disc list-inside">
+          <ul className="text-lg font-normal text-white lg:text-xl  ps-5 mt-2 space-y-1 list-disc list-inside">
             <li>
-              <span className="font-semibold">Experienced Team:</span> Our team includes skilled professionals with years of experience in Facebook ads, Instagram ads, and Meta ads.
+              <span className="font-semibold ">Experienced Team:</span> Our team includes skilled professionals with years of experience in Facebook ads, Instagram ads, and Meta ads.
             </li>
             <li>
               <span className="font-semibold">Customized Solutions:</span> We provide tailored pay-per-click services to meet your unique needs.
@@ -34,12 +59,12 @@ const ChooseUs = () => {
           {/* Website Development Progress */}
           <div className="flex justify-between mb-1">
             <span className="text-base font-bold md:text-xl lg:text-2xl text-white dark:text-white">Website Development</span>
-            <span className="text-sm font-bold md:text-xl lg:text-2xl text-white dark:text-white">95%</span>
+            <span className="text-sm font-bold md:text-xl lg:text-2xl text-white dark:text-white">{websiteProgress}%</span>
           </div>
           <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
             <div
               className="bg-purple-600 h-2.5 rounded-full transition-all duration-1000 ease-in-out"
-              style={{ width: '95%' }}
+              style={{ width: `${websiteProgress}%` }}
             ></div>
           </div>
           <div className="p-4"></div>
@@ -47,12 +72,12 @@ const ChooseUs = () => {
           {/* Mobile App Development Progress */}
           <div className="flex justify-between mb-1">
             <span className="text-base font-bold md:text-xl lg:text-2xl text-white dark:text-white">Mobile App Development</span>
-            <span className="text-sm font-bold md:text-xl lg:text-2xl text-white dark:text-white">90%</span>
+            <span className="text-sm font-bold md:text-xl lg:text-2xl text-white dark:text-white">{appProgress}%</span>
           </div>
           <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
             <div
               className="bg-purple-600 h-2.5 rounded-full transition-all duration-1000 ease-in-out"
-              style={{ width: '90%' }}
+              style={{ width: `${appProgress}%` }}
             ></div>
           </div>
           <div className="p-4"></div>
@@ -60,12 +85,12 @@ const ChooseUs = () => {
           {/* SEO Progress */}
           <div className="flex justify-between mb-1">
             <span className="text-base font-bold md:text-xl lg:text-2xl text-white dark:text-white">Search Engine Optimization (SEO)</span>
-            <span className="text-sm font-bold md:text-xl lg:text-2xl text-white dark:text-white">95%</span>
+            <span className="text-sm font-bold md:text-xl lg:text-2xl text-white dark:text-white">{seoProgress}%</span>
           </div>
           <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
             <div
               className="bg-purple-600 h-2.5 rounded-full transition-all duration-1000 ease-in-out"
-              style={{ width: '95%' }}
+              style={{ width: `${seoProgress}%` }}
             ></div>
           </div>
           <div className="p-4"></div>
@@ -73,12 +98,12 @@ const ChooseUs = () => {
           {/* Graphic Designing Progress */}
           <div className="flex justify-between mb-1">
             <span className="text-base font-bold md:text-xl lg:text-2xl text-white dark:text-white">Graphic Designing</span>
-            <span className="text-sm font-bold md:text-xl lg:text-2xl text-white dark:text-white">98%</span>
+            <span className="text-sm font-bold md:text-xl lg:text-2xl text-white dark:text-white">{graphicProgress}%</span>
           </div>
           <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
             <div
               className="bg-purple-600 h-2.5 rounded-full transition-all duration-1000 ease-in-out"
-              style={{ width: '98%' }}
+              style={{ width: `${graphicProgress}%` }}
             ></div>
           </div>
           <div className="p-4"></div>
