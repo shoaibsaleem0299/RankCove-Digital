@@ -8,7 +8,7 @@ interface Blog {
   category: string;
   author: string;
   authorImage: string;
-  blog: string; 
+
 }
 
 interface BlogSectionProps {
@@ -68,19 +68,7 @@ const BlogSection: React.FC<BlogSectionProps> = ({ blogs }) => {
                   <span className="font-medium dark:text-white">{blog.author}</span>
                 </div>
                 <Link
-                  href={{
-                    pathname:'/blogs/blog',
-                    query: {
-                      title: blog.title,
-                      description: blog.description,
-                      date: blog.date,
-                      category: blog.category,
-                      author: blog.author,
-                      authorImage: blog.authorImage,
-                      blog: blog.blog,
-                    }
-                  }}
-                  
+                  href='https://www.geeksforgeeks.org/web-development/'
                   className="inline-flex items-center font-medium text-[#761FE3] hover:underline">
                   Read more
                   <svg
