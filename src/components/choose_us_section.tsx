@@ -29,11 +29,11 @@ const ChooseUs = () => {
   return (
     <section className="min-h-screen flex items-center bg-black">
       <div  className="mt-4 mb-6 gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
-        <div data-aos="fade-right" className="font-light text-white sm:text-lg dark:text-white">
+        <div data-aos="fade-right" className="font-light text-white sm:text-lg ">
           <h1 className="mb-6 text-4xl font-extrabold tracking-tight leading-none md:text-xl lg:text-4xl text-[#761FE3]">
             Why Choose Us
           </h1>
-          <h2 className="mb-6 text-5xl tracking-tight font-extrabold text-white dark:text-white">
+          <h2 className="mb-6 text-5xl tracking-tight font-extrabold text-white ">
             Achieving Success Through Proven Digital Expertise
           </h2>
           <p className="text-lg font-normal text-white lg:text-xl ">
@@ -58,10 +58,10 @@ const ChooseUs = () => {
         <div data-aos="fade-left">
           {/* Website Development Progress */}
           <div className="flex justify-between mb-1">
-            <span className="text-base font-bold md:text-xl lg:text-2xl text-white dark:text-white">Website Development</span>
-            <span className="text-sm font-bold md:text-xl lg:text-2xl text-white dark:text-white">{websiteProgress}%</span>
+            <span className="text-base font-bold md:text-xl lg:text-2xl text-white ">Website Development</span>
+            <span className="text-sm font-bold md:text-xl lg:text-2xl text-white ">{websiteProgress}%</span>
           </div>
-          <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+          <div className="w-full bg-gray-700 rounded-full h-2.5 ">
             <div
               className="bg-purple-600 h-2.5 rounded-full transition-all duration-1000 ease-in-out"
               style={{ width: `${websiteProgress}%` }}
@@ -71,10 +71,10 @@ const ChooseUs = () => {
 
           {/* Mobile App Development Progress */}
           <div className="flex justify-between mb-1">
-            <span className="text-base font-bold md:text-xl lg:text-2xl text-white dark:text-white">Mobile App Development</span>
-            <span className="text-sm font-bold md:text-xl lg:text-2xl text-white dark:text-white">{appProgress}%</span>
+            <span className="text-base font-bold md:text-xl lg:text-2xl text-white ">Mobile App Development</span>
+            <span className="text-sm font-bold md:text-xl lg:text-2xl text-white ">{appProgress}%</span>
           </div>
-          <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+          <div className="w-full bg-gray-200 rounded-full h-2.5 ">
             <div
               className="bg-purple-600 h-2.5 rounded-full transition-all duration-1000 ease-in-out"
               style={{ width: `${appProgress}%` }}
@@ -84,10 +84,10 @@ const ChooseUs = () => {
 
           {/* SEO Progress */}
           <div className="flex justify-between mb-1">
-            <span className="text-base font-bold md:text-xl lg:text-2xl text-white dark:text-white">Search Engine Optimization (SEO)</span>
-            <span className="text-sm font-bold md:text-xl lg:text-2xl text-white dark:text-white">{seoProgress}%</span>
+            <span className="text-base font-bold md:text-xl lg:text-2xl text-white ">Search Engine Optimization (SEO)</span>
+            <span className="text-sm font-bold md:text-xl lg:text-2xl text-white ">{seoProgress}%</span>
           </div>
-          <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+          <div className="w-full bg-gray-200 rounded-full h-2.5 ">
             <div
               className="bg-purple-600 h-2.5 rounded-full transition-all duration-1000 ease-in-out"
               style={{ width: `${seoProgress}%` }}
@@ -97,10 +97,10 @@ const ChooseUs = () => {
 
           {/* Graphic Designing Progress */}
           <div className="flex justify-between mb-1">
-            <span className="text-base font-bold md:text-xl lg:text-2xl text-white dark:text-white">Graphic Designing</span>
-            <span className="text-sm font-bold md:text-xl lg:text-2xl text-white dark:text-white">{graphicProgress}%</span>
+            <span className="text-base font-bold md:text-xl lg:text-2xl text-white ">Graphic Designing</span>
+            <span className="text-sm font-bold md:text-xl lg:text-2xl text-white ">{graphicProgress}%</span>
           </div>
-          <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+          <div className="w-full bg-gray-200 rounded-full h-2.5 ">
             <div
               className="bg-purple-600 h-2.5 rounded-full transition-all duration-1000 ease-in-out"
               style={{ width: `${graphicProgress}%` }}

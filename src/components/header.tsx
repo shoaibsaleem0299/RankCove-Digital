@@ -18,7 +18,7 @@ export default function Header() {
         <div className="flex lg:flex-1">
           <Link href="/" passHref legacyBehavior>
             <div className="-m-1.5 p-1.5">
-              <Image className="h-10 w-auto lg:h-14" src={logo} alt="RANKCOVE" />
+              <img className="h-10 w-auto lg:h-14" src='/assets/images/logo.png' alt="RANKCOVE" />
             </div>
           </Link>
         </div>
@@ -99,7 +99,7 @@ export default function Header() {
               <Link href="/" passHref legacyBehavior>
                 <div className="-m-1.5 p-1.5">
                   <span className="sr-only">Your Company</span>
-                  <Image className="h-8 w-auto" src={logo} alt="Logo" />
+                  <img className="h-8 w-auto" src='/assets/images/logo.png' alt="Logo" />
                 </div>
               </Link>
               <button

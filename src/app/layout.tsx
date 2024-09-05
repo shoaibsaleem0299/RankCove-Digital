@@ -19,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html  lang="en">
       <AOSInit />
       <head>
         <Script
@@ -27,9 +27,9 @@ export default function RootLayout({
           crossOrigin="anonymous"
           strategy="afterInteractive" // Load this script after the page is interactive
         />
-
+        
       </head>
-      <body className={inter.className}>
+      <body  className={inter.className}>
         <Header />
         {children}
         <Footer />

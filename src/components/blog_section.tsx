@@ -26,7 +26,7 @@ const BlogSection: React.FC<BlogSectionProps> = ({ blogs }) => {
           <h1 data-aos="fade-up" className="text-[#761FE3] mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-2xl lg:text-4xl">
             Explore Our Blogs
           </h1>
-          <h2 data-aos="fade-left" className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl dark:text-white">
+          <h2 data-aos="fade-left" className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl ">
             Discover Tips, Trends, & Strategies
           </h2>
           <p data-aos="fade-up" className="mb-8 text-lg font-normal text-center text-white lg:text-xl sm:px-16 lg:px-48">
@@ -38,10 +38,10 @@ const BlogSection: React.FC<BlogSectionProps> = ({ blogs }) => {
           {blogs.map((blog, index) => (
             <article
               key={index}
-              className="p-6 mb-10 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
+              className="p-6 mb-10 bg-gray-800 rounded-lg border border-gray-700 shadow-md  dark:border-gray-700"
             >
-              <div className="flex justify-between items-center mb-5 text-gray-500">
-                <span className="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
+              <div className="flex justify-between items-center mb-5 text-white">
+                <span className="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 ">
                   <svg
                     className="mr-1 w-3 h-3"
                     fill="currentColor"
@@ -52,12 +52,12 @@ const BlogSection: React.FC<BlogSectionProps> = ({ blogs }) => {
                   </svg>
                   {blog.category}
                 </span>
-                <span className="text-sm">{blog.date}</span>
+                <span className="text-sm text-white">{blog.date}</span>
               </div>
-              <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h2 className="mb-2 text-2xl font-bold tracking-tight text-white ">
                 <a href="#">{blog.title}</a>
               </h2>
-              <p className="mb-5 font-light text-gray-500 dark:text-gray-400">{blog.description}</p>
+              <p className="mb-5 font-light text-gray-300 ">{blog.description}</p>
               <div className="flex justify-between items-center">
                 <div className="flex items-center space-x-4">
                   <img
@@ -65,7 +65,7 @@ const BlogSection: React.FC<BlogSectionProps> = ({ blogs }) => {
                     src={blog.authorImage}
                     alt={`${blog.author} avatar`}
                   />
-                  <span className="font-medium dark:text-white">{blog.author}</span>
+                  <span className="font-medium text-white">{blog.author}</span>
                 </div>
                 <Link
                   href='https://www.geeksforgeeks.org/web-development/'

@@ -36,11 +36,11 @@ const AboutSection = () => {
                 data-aos="fade-right" 
                 className="mt-4 mb-6 gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6 lg:h-screen"
             >
-                <div className="font-light text-white sm:text-lg dark:text-white">
+                <div className="font-light text-white sm:text-lg ">
                     <h1 className="mb-6 text-4xl font-extrabold tracking-tight leading-none md:text-2xl lg:text-4xl text-[#761FE3]">
                         About Us
                     </h1>
-                    <h2 className="mb-4 text-5xl tracking-tight font-extrabold text-white dark:text-white">
+                    <h2 className="mb-4 text-5xl tracking-tight font-extrabold text-white ">
                         Activating Digital Success For Business
                     </h2>
                     <p className="text-lg font-normal text-white lg:text-xl">

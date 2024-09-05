@@ -134,11 +134,11 @@ function Home() {
         </div>
       </div>
       <AboutSection />
-      <div className="flex flex-col items-center justify-center p-5 my-10">
+      <div className="bg-black flex flex-col items-center justify-center p-5 my-10">
         <h1 data-aos="fade-up" className="text-[#761FE3] mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-2xl lg:text-4xl ">
           What We Do
         </h1>
-        <h2 data-aos="fade-left" className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl dark:text-white">
+        <h2 data-aos="fade-left" className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl ">
           Our Suite of Digital Solutions
         </h2>
         <p data-aos="fade-up" className="mb-8 text-lg font-normal text-center text-white lg:text-xl sm:px-16 lg:px-48 ">

@@ -4,13 +4,13 @@ const CallToAction = () => {
   return (
     <div style={{ height: '100vh', display: 'flex', alignItems: 'center' }} className="bg-black">
       <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
-        <h1 data-aos="fade-up" className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl dark:text-white">
+        <h1 data-aos="fade-up" className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl ">
           Ready to Dominate The Digital Landscape?
         </h1>
-        <h2 data-aos="fade-left" className="my-6 mb-4 text-3xl font-extrabold tracking-tight leading-none text-white md:text-3xl lg:text-4xl dark:text-white">
+        <h2 data-aos="fade-left" className="my-6 mb-4 text-3xl font-extrabold tracking-tight leading-none text-white md:text-3xl lg:text-4xl ">
           Let&apos;s create a winning strategy together
         </h2>
-        <p data-aos="fade-right" className="mb-8 my-6 text-lg font-normal text-white lg:text-xl sm:px-16 lg:px-48 dark:text-gray-400">
+        <p data-aos="fade-right" className="mb-8 my-6 text-lg font-normal text-white lg:text-xl sm:px-16 lg:px-48 ">
           At Rankcove we are confident in leveraging years of experience, a wealth of knowledge, and a proven track record of delivering exceptional digital solutions that drive businesses forward.
         </p>
         <div data-aos="fade-up" className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
