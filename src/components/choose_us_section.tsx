@@ -1,4 +1,3 @@
-// pages/index.js
 import Link from 'next/link';
 
 const ChooseUs = () => {
@@ -16,44 +15,71 @@ const ChooseUs = () => {
             At Rankcove Digital Solutions, we are a leading Meta Ads agency committed to helping your business succeed. Here’s why you should choose us:
           </p>
           <ul className="text-lg font-normal text-white lg:text-xl dark:text-gray-400 ps-5 mt-2 space-y-1 list-disc list-inside">
-            <li><span className="font-semibold">Experienced Team:</span> Our team includes skilled professionals with years of experience in Facebook ads, Instagram ads, and Meta ads.</li>
-            <li><span className="font-semibold">Customized Solutions:</span> We provide tailored pay per click services to meet your unique needs.</li>
-            <li><span className="font-semibold">Proven Success:</span> Our strategies have helped numerous clients achieve their marketing goals.</li>
-            <li><span className="font-semibold">Client-Focused Approach:</span> We prioritize your vision and feedback to ensure the final product exceeds your expectations.</li>
+            <li>
+              <span className="font-semibold">Experienced Team:</span> Our team includes skilled professionals with years of experience in Facebook ads, Instagram ads, and Meta ads.
+            </li>
+            <li>
+              <span className="font-semibold">Customized Solutions:</span> We provide tailored pay-per-click services to meet your unique needs.
+            </li>
+            <li>
+              <span className="font-semibold">Proven Success:</span> Our strategies have helped numerous clients achieve their marketing goals.
+            </li>
+            <li>
+              <span className="font-semibold">Client-Focused Approach:</span> We prioritize your vision and feedback to ensure the final product exceeds your expectations.
+            </li>
           </ul>
         </div>
 
         <div>
+          {/* Website Development Progress */}
           <div className="flex justify-between mb-1">
             <span className="text-base font-bold md:text-xl lg:text-2xl text-white dark:text-white">Website Development</span>
             <span className="text-sm font-bold md:text-xl lg:text-2xl text-white dark:text-white">95%</span>
           </div>
           <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-            <div className="bg-purple-600 h-2.5 rounded-full" style={{ width: '95%' }}></div>
+            <div
+              className="bg-purple-600 h-2.5 rounded-full transition-all duration-1000 ease-in-out"
+              style={{ width: '95%' }}
+            ></div>
           </div>
           <div className="p-4"></div>
+
+          {/* Mobile App Development Progress */}
           <div className="flex justify-between mb-1">
             <span className="text-base font-bold md:text-xl lg:text-2xl text-white dark:text-white">Mobile App Development</span>
             <span className="text-sm font-bold md:text-xl lg:text-2xl text-white dark:text-white">90%</span>
           </div>
           <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-            <div className="bg-purple-600 h-2.5 rounded-full" style={{ width: '90%' }}></div>
+            <div
+              className="bg-purple-600 h-2.5 rounded-full transition-all duration-1000 ease-in-out"
+              style={{ width: '90%' }}
+            ></div>
           </div>
           <div className="p-4"></div>
+
+          {/* SEO Progress */}
           <div className="flex justify-between mb-1">
-            <span className="text-base font-bold md:text-xl lg:text-2xl text-white dark:text-white">Search Engine Optimization SEO</span>
+            <span className="text-base font-bold md:text-xl lg:text-2xl text-white dark:text-white">Search Engine Optimization (SEO)</span>
             <span className="text-sm font-bold md:text-xl lg:text-2xl text-white dark:text-white">95%</span>
           </div>
           <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-            <div className="bg-purple-600 h-2.5 rounded-full" style={{ width: '95%' }}></div>
+            <div
+              className="bg-purple-600 h-2.5 rounded-full transition-all duration-1000 ease-in-out"
+              style={{ width: '95%' }}
+            ></div>
           </div>
           <div className="p-4"></div>
+
+          {/* Graphic Designing Progress */}
           <div className="flex justify-between mb-1">
             <span className="text-base font-bold md:text-xl lg:text-2xl text-white dark:text-white">Graphic Designing</span>
             <span className="text-sm font-bold md:text-xl lg:text-2xl text-white dark:text-white">98%</span>
           </div>
           <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-            <div className="bg-purple-600 h-2.5 rounded-full" style={{ width: '98%' }}></div>
+            <div
+              className="bg-purple-600 h-2.5 rounded-full transition-all duration-1000 ease-in-out"
+              style={{ width: '98%' }}
+            ></div>
           </div>
           <div className="p-4"></div>
         </div>
